@@ -6,6 +6,6 @@ trigger AgentWorkTrigger on AgentWork(
     wkdw.AgentWorkTriggerHandlerGlobalProxy.handleTrigger(
         Trigger.newMap,
         Trigger.oldMap,
-        Trigger.operationType
+        Trigger.operationType 
     );
 }
