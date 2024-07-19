@@ -7,5 +7,6 @@ trigger AgentWorkTrigger on AgentWork(
         Trigger.newMap,
         Trigger.oldMap,
         Trigger.operationType
+        
     );
 }
